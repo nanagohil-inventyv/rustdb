@@ -1,8 +1,6 @@
 # RustDB — Full RDBMS with Binary Page Storage
 
-A complete relational database engine in Rust. SQL front-end from `simple_rdbms`
-fully integrated with the binary page storage engine from `page_db`.
-
+A complete relational database engine in Rust.
 ---
 
 ## Quick Start

@@ -1,0 +1,9 @@
+[package]
+name = "rustdb"
+version = "0.1.0"
+edition = "2021"
+description = "A simple RDBMS with binary page-based storage, written in Rust"
+
+[[bin]]
+name = "rustdb"
+path = "src/main.rs"

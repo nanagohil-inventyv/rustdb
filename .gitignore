@@ -1,0 +1,40 @@
+# ── Rust build artifacts ──────────────────────────────────────────────────────
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# ── Database files (runtime generated) ───────────────────────────────────────
+*.db
+*.bin
+/data/
+**/data/
+/mydb/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.vim/
+
+# ── Environment & secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+*.log
+tmp/
+temp/
